@@ -1,0 +1,155 @@
+ /*Element Selectors ---------*/
+h1 {
+  font-family: "Times New Roman";
+  text-align: center;
+  font-size: 80px;
+  font-family: "Centaur";
+  color: black;
+  
+  padding: 0;
+  margin: 0;
+  border-top: 6px solid black;
+  border-bottom: 6px solid black;
+  border-radius: 2%;
+  
+}
+
+:root {
+  background: linear-gradient(goldenrod, rgb(112, 54, 17));
+  border-bottom: solid black 12px;
+}
+
+.maintxt,
+.copyright {
+  font-size: 16px;
+  color: black;
+}
+
+
+a:link {
+  color: rgb(56, 174, 183);
+  text-decoration: none;
+  background: black 18px;
+  border: solid lightgrey 2px;
+  
+}
+a:visited {
+  color: rgb(77, 255, 255);
+  border: solid lightgrey 2px;
+  border-radius: 20%;
+  
+}
+
+a:hover {
+  color: gold;
+  cursor: pointer;
+}
+
+a:focus {
+  color: gold;
+  border: dotted lightgrey 2px;
+}
+
+a:active {
+  color: rgb(255, 255, 132);
+  cursor: wait;
+}
+
+li a {
+  margin-left: none;
+}
+
+
+
+li {
+  display: inline;
+  position: relative;
+  border-left: solid black 1px;
+}
+  
+  
+/* Class Selectors ---------*/
+.pgnav {
+  font-size: 24px;
+  font-family: "Times New Roman";
+  color: blue;
+  padding: 20px;
+  text-decoration: none;
+  
+}
+
+.pglnks a:link {
+  list-style-type: none;
+  padding-left: 0;
+   display: block;
+ 
+}
+
+.maintxt {
+  display: block;
+  text-align: center;
+  margin: 12px 0; 
+}
+
+ 
+/*ID Selectors ---------------*/
+
+/*Img ---------*/
+#plchldr {
+width: 50%;
+  border: solid black 1px;
+  border-radius: 10%;
+  margin-left: 2%;
+}
+
+
+/*Media Queries -----------------*/
+
+/*Mobile Site ------------------*/
+
+@media (max-width: 1024px) {
+
+/*Element Media Queries----------------*/
+li {
+  display: block;
+  border: none;
+  margin-bottom: 2%;   
+}
+
+h1 {
+  font-size: 90px;
+}
+
+/*Class Media Queries -------------------*/
+.pglnks {
+  text-align: center;
+  font-size: 64px;
+   margin-right: 5%;
+}
+
+.maintxt, 
+.copyright {
+  font-size: 24px;
+  text-align: center;
+}
+
+.cntctnav {
+  display: inline-block;
+}
+
+/*ID Media Queries -----------------*/
+#plchldr {
+  width: 90%;
+display: inline-block;
+  margin-left: 5%;
+}
+
+
+
+/*Navbar -------------*/
+
+}
+
+  
+
+
